@@ -1,0 +1,156 @@
+@font-face {
+    font-family: "Tripl";
+    src: url("https://puzzylpiece.xyz/fonts/Triplex-Light.otf");
+}
+
+@font-face {
+    font-family: "Tripl";
+    font-weight: bold;
+    src: url("https://puzzylpiece.xyz/fonts/Triplex-Bold.otf");
+}
+
+@font-face {
+    font-family: "Indus";
+    font-weight: bold;
+    src: url("https://puzzylpiece.xyz/fonts/Industria-SolidA.otf");
+}
+
+@font-face {
+    font-family: "Insig";
+    font-weight: bold;
+    src: url("https://puzzylpiece.xyz/fonts/Insignia-A.otf");
+}
+
+body {
+    font-family: "Tripl";
+    background-color: #138B96;
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1 {
+    font-family: "Indus";
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+}
+
+li h1 {
+    font-size: 15.5px;
+    background-color: #8B2D6C;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Insig";
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+a:link {
+    color: #FCD716;
+}
+
+a:visited {
+    color: #8B2D6C;
+}
+
+.yellow {
+    background-color: #FCD716;
+    color: black;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+nav ul li {
+    font-family: "Insig";
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white !important;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #8B2D6C;
+}
+
+section {
+    float: right;
+    display: block;
+}
+
+aside {
+    width: 300px;
+}
+
+section#categories {
+    width: calc(100vw - 320px);
+
+}
+
+aside#left {
+    float: left;
+    display: block;
+}
+
+#itemofnote {
+    background: url("https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyMDgxMDc2NC9vcmlnaW5hbF8wODRjOWY5NGVhYWYyMjc5MWJjMmEyZGUyMjkxMjBmYy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjI0MDAsImhlaWdodCI6MjQwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==");
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+#stuff {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gradient {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: linear-gradient(90deg,rgba(19, 139, 150, 1) 0%, rgba(19, 139, 150, 0) 100%);
+}
+
+#stuff {
+    background-color: #FCD716;
+}
+
+input, textarea {
+    font-family: "Tripl" !important;
+    border: none ;
+}
+input[type=submit] {
+    background-color: black;
+    border: none;
+    color: white;
+    font-family: "Tripl";
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+input[type=submit]:hover {
+    background-color: #8B2D6C;
+}

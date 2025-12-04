@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>The Late 90s Graphic Design Archive</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!-- Le Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><h1>The Late 90s Graphic Design Archive</h1></li>
+                <li><a href="index.html">Categories</a></li>
+                <li><a href="added.html">Newly Added</a></li>
+                <li><a href="submit.html">Submit Your Own</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div style="padding: 20px;">
+            <h1>Contact</h1>
+            <p>Use the form below to contact us!</p>
+            <form action="process_form.php" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+        
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+        
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+        
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
