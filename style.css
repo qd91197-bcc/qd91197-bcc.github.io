@@ -155,7 +155,6 @@ input[type=submit]:hover {
     background-color: #8B2D6C;
 }
 
-
 .submittalBox {
     display: flex;
     width: 500px;
@@ -165,10 +164,11 @@ input[type=submit]:hover {
     border: 2px dashed white;
 }
 
-button {
+button, #inputbutton {
     border: 0;
     background-color: #FCD716;
-    font-family: "Insig";
+    color: black;
+    font-family: "Insig" !important;
     text-transform: uppercase;
     padding: 5px 10px; 
     letter-spacing: 2px;
